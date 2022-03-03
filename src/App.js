@@ -6,13 +6,12 @@ import Landing from './components/Landing';
 import Footer from './components/Footer';
 import  Pricing  from './components/Pricing';
 import Catalogue from './components/Catalogue';
+import Payment from './components/Payment';
 function App() {
   return (
     <div>
       <Navbar />
-       <Catalogue/> 
-         
-      
+       <Payment/> 
       <Footer />
     </div>
   );
