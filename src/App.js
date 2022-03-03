@@ -6,13 +6,16 @@ import Landing from './components/Landing';
 import Footer from './components/Footer';
 import  Pricing  from './components/Pricing';
 import Catalogue from './components/Catalogue';
-import Payment from './components/Payment';
+import Payment from './components/CoursePayment';
 import Dashboard from './components/Dashboard';
+import Doubt from './components/DoubtPayment';
+import Homework from './components/HomeworkPayment';
+import Tution from './components/TutionPayment';
 function App() {
   return (
     <div>
       <Navbar />
-       <Dashboard/> 
+       <Tution/> 
       <Footer />
     </div>
   );

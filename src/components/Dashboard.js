@@ -9,7 +9,7 @@ const Dashboard = () => {
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Hi Student,</h1>
         <p class="col-md-8 fs-4"> This is your dashboard. You will find all your study materials here. You can book a session with our knowlege experts and ask doubts, get home work help or learn a topic from scratch.</p>
-        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button" >Doubt Session</button>
+        <button style={{margin:"10px"}} cFlass="btn btn-dark btn-lg" type="button" >Doubt Session</button>
         <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button" >Homework Help</button>
         <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button">Tution Session</button>
       </div>
