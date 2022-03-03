@@ -7,11 +7,12 @@ import Footer from './components/Footer';
 import  Pricing  from './components/Pricing';
 import Catalogue from './components/Catalogue';
 import Payment from './components/Payment';
+import Dashboard from './components/Dashboard';
 function App() {
   return (
     <div>
       <Navbar />
-       <Payment/> 
+       <Dashboard/> 
       <Footer />
     </div>
   );
