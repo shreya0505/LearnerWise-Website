@@ -6,16 +6,20 @@ import Landing from './components/Landing';
 import Footer from './components/Footer';
 import  Pricing  from './components/Pricing';
 import Catalogue from './components/Catalogue';
-import Payment from './components/CoursePayment';
+import CoursePayment from './components/CoursePayment';
 import Dashboard from './components/Dashboard';
-import Doubt from './components/DoubtPayment';
-import Homework from './components/HomeworkPayment';
-import Tution from './components/TutionPayment';
+import DoubtPayment from './components/DoubtPayment';
+import HomeworkPayment from './components/HomeworkPayment';
+import TutionPayment from './components/TutionPayment';
+import CoursesList from './components/CoursesList';
+import StudyMaterial from './components/StudyMaterial';
+import Chat from './components/Chat';
+import Video from './components/Video';
 function App() {
   return (
     <div>
       <Navbar />
-       <Tution/> 
+       <Video/> 
       <Footer />
     </div>
   );
