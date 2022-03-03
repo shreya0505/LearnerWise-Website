@@ -27,7 +27,7 @@ function CoursesList() {
 							</div>
 						</p>
 						<button class='btn btn-outline-light' type='button'>
-							Start Learning
+							<a href='/video' style={{textDecoration:"none", color:"white"}}> Start Learning </a>
 						</button>
 					</div>
 				</div>
@@ -51,7 +51,7 @@ function CoursesList() {
 							</div>
 						</p>
 						<button class='btn btn-outline-light' type='button'>
-							Start Learning
+							<a href='/video' style={{textDecoration:"none", color:"white"}}> Start Learning </a>
 						</button>
 					</div>
 				</div>
@@ -75,7 +75,7 @@ function CoursesList() {
 							</div>
 						</p>
 						<button class='btn btn-outline-light' type='button'>
-							Start Learning
+							<a href='/video' style={{textDecoration:"none", color:"white"}}> Start Learning </a>
 						</button>
 					</div>
 				</div>
@@ -99,7 +99,7 @@ function CoursesList() {
 							</div>
 						</p>
 						<button class='btn btn-outline-light' type='button'>
-							Start Revising
+						<a href='/video' style={{textDecoration:"none", color:"white"}}> Start Revising </a>
 						</button>
 					</div>
 				</div>
@@ -123,7 +123,7 @@ function CoursesList() {
 							</div>
 						</p>
 						<button class='btn btn-outline-light' type='button'>
-							Start Learning
+							<a href='/video' style={{textDecoration:"none", color:"white"}}> Start Learning </a>
 						</button>
 					</div>
 				</div>

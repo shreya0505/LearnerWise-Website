@@ -1,18 +1,17 @@
 import React from 'react'
-import DummyVideo from '../assets/DummyVideo.mp4'
-import "../../node_modules/video-react/dist/video-react.css";
-import { Player, BigPlayButton } from 'video-react';
-import { ChatLeftTextFill } from 'react-bootstrap-icons';
-
-const Video = () => {
-    return (
-    <div>
-    <Player playsInline > 
-         <source src={DummyVideo}/>
-         <BigPlayButton position="center" />
-    </Player>
-
-    <div class="container">
+import ReactAudioPlayer from 'react-audio-player'
+import DummyAudio from '../assets/DummyAudio.wav'
+import { ChatLeftTextFill } from 'react-bootstrap-icons'
+const Audio = () => {
+  return (
+    <div style={{ margin:"auto", width:"70%",marginTop:"30px"}}>
+        <ReactAudioPlayer
+        style={{ width:"70%",margin:"50px"}}
+        src={DummyAudio}
+        autoPlay
+        controls
+        />
+            <div class="container">
   <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
     <ChatLeftTextFill size={30} style={{marginRight:"20px"}}/>
     <div class="lh-1">
@@ -78,4 +77,4 @@ const Video = () => {
   )
 }
 
-export default Video
+export default Audio

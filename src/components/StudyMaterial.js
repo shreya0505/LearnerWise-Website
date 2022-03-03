@@ -28,7 +28,7 @@ const StudyMaterial = () => {
 								</div>
 							</p>
 							<button class='btn btn-outline-light' type='button'>
-								Rewatch
+								<a href='/video' style={{textDecoration:"none", color:"white"}}> Rewatch </a>
 							</button>
 						</div>
 					</div>
@@ -41,12 +41,12 @@ const StudyMaterial = () => {
 									<span class='badge badge-danger'>120</span> minute session
 								</div>
                                 <div>
-									<span class='badge badge-danger'>Video</span>
+									<span class='badge badge-danger'>Audio</span>
 								</div>
 							</p>
                             
 							<button class='btn btn-outline-light' type='button'>
-								Rewatch
+								<a href='/audio' style={{textDecoration:"none", color:"white"}}> Rewatch </a>
 							</button>
 						</div>
 					</div>
@@ -59,11 +59,11 @@ const StudyMaterial = () => {
 									<span class='badge badge-danger'>120</span> minute session
 								</div>
                                 <div>
-									<span class='badge badge-danger'>Video</span>
+									<span class='badge badge-danger'>Audio</span>
 								</div>
 							</p>
 							<button class='btn btn-outline-light' type='button'>
-								Rewatch
+								<a href='/audio' style={{textDecoration:"none", color:"white"}}> Rewatch </a>
 							</button>
 						</div>
 					</div>
@@ -80,7 +80,7 @@ const StudyMaterial = () => {
 								</div>
 							</p>
 							<button class='btn btn-outline-light' type='button'>
-								Rewatch
+								<a href='/video' style={{textDecoration:"none", color:"white"}}> Rewatch </a>
 							</button>
 						</div>
 					</div>
@@ -94,13 +94,14 @@ const StudyMaterial = () => {
 						<div class='h-100 p-5 text-white bg-dark rounded-3'>
 							<h2>Organic Chemistry | Isomerism</h2>
 							<p>
+							 
 								<span class='badge badge-danger'>02 Feb 2021, 4:00pm</span>
 								<div>
 									<span class='badge badge-danger'>12</span>pages
 								</div>
 							</p>
 							<button class='btn btn-outline-light' type='button'>
-								Open
+								<a href='/notes' style={{textDecoration:"none", color:"white"}}> Open </a>
 							</button>
 						</div>
 					</div>
@@ -115,7 +116,7 @@ const StudyMaterial = () => {
 							</p>
                             
 							<button class='btn btn-outline-light' type='button'>
-								Open
+								<a href='/notes' style={{textDecoration:"none", color:"white"}}> Open </a>
 							</button>
 						</div>
 					</div>
@@ -129,13 +130,15 @@ const StudyMaterial = () => {
 						<div class='h-100 p-5 text-white bg-dark rounded-3'>
 							<h2>Organic Chemistry | Isomerism</h2>
 							<p>
+							<div> Monocarboxylic acids are functional isomers of esters because esters and monocarboxylic acid have the same general (-COOH). A carboxylic acid is an ester derived from a carboxylic acid. Is it true?  </div>
+								<br/>
 								<span class='badge badge-danger'>02 Feb 2021, 4:00pm</span>
 								<div>
 									<span class='badge badge-danger'>3</span> pages
 								</div>
 							</p>
 							<button class='btn btn-outline-light' type='button'>
-								Open
+								<a href='/notes' style={{textDecoration:"none", color:"white"}}> Open </a>
 							</button>
 						</div>
 					</div>
@@ -143,6 +146,8 @@ const StudyMaterial = () => {
 						<div class='h-100 p-5 text-white bg-dark rounded-3'>
 							<h2>Co-ordinate Geoemetery | Ellipse</h2>
 							<p>
+							<p> Find the equation of the ellipse whose eccentricity is 4/5 and axes are along the coordinate axes and with foci at (0, ± 4).</p>
+
 								<span class='badge badge-danger'>22 Jan 2022, 4:00pm</span>
 								<div>
 									<span class='badge badge-danger'>5</span> pages
@@ -150,7 +155,7 @@ const StudyMaterial = () => {
 							</p>
                             
 							<button class='btn btn-outline-light' type='button'>
-								Open
+								<a href='/notes' style={{textDecoration:"none", color:"white"}}> Open </a>
 							</button>
 						</div>
 					</div>

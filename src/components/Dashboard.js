@@ -9,9 +9,9 @@ const Dashboard = () => {
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Hi Student,</h1>
         <p class="col-md-8 fs-4"> This is your dashboard. You will find all your study materials here. You can book a session with our knowlege experts and ask doubts, get home work help or learn a topic from scratch.</p>
-        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button" >Doubt Session</button>
-        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button" >Homework Help</button>
-        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button">Tution Session</button>
+        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button" > <a href='/doubtpayment' style={{textDecoration:"none", color:"white"}}> Doubt Session </a> </button>
+        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button" > <a href='/homeworkpayment' style={{textDecoration:"none", color:"white"}}> Homework Help </a></button>
+        <button style={{margin:"10px"}} class="btn btn-dark btn-lg" type="button"><a href='/tuitionpayment' style={{textDecoration:"none", color:"white"}}> Tuition Session </a></button>
       </div>
     </div>
     
@@ -29,7 +29,7 @@ const Dashboard = () => {
                 <div class="progress-bar bg-warning" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
         </div>
           </p>
-          <button class="btn btn-outline-light" type="button">Explore Courses</button>
+          <button class="btn btn-outline-light" type="button"><a href='/courseslist' style={{textDecoration:"none", color:"white"}}> Explore Courses </a></button>
         </div>
       </div>
       <div class="col-md-6">
@@ -42,7 +42,7 @@ const Dashboard = () => {
               <div><b>5 Homework Solutions</b></div>
               </p>
 
-          <button class="btn btn-outline-dark" type="button">Explore Study Material</button>
+          <button class="btn btn-outline-dark" type="button"><a href='/studymaterial' style={{textDecoration:"none", color:"black"}}> Explore Study Material </a></button>
         </div>
       </div>
       
